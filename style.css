@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+
+.conteiner-grid{
+    display: grid;
+    grid-template-areas: 
+    "item1 item1 item1"
+    "item2 item2 item2"
+    "item3 item3 item3";
+    
+}
+.conteiner-grid div{
+   
+}
+#item1{
+    grid-area: item1;
+    height: 9vh;
+     background-color:  rgba(0, 0, 0, 0.7);
+ 
+}
+#item2{
+    grid-area: item2;
+    height: 140vh;
+}
+
+#item3{
+    grid-area: item3;
+    height: 30vh;
+    background-color: black;
+
+}
+li{
+    
+    display: inline-block;
+    padding: 0px 10px;
+    color: white;
+    display: inline-block;
+    padding: 10px 10px 10px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+li:hover{
+    color: #5F9EA0; 
+
+transition: 0.5s;
+
+opacity: 0.7;
+}
+ul{
+    margin-left: 20%;
+}
+.input-pesquisar{
+    padding: 0px 300px;
+    margin-top: -3%;
+    display: flex;
+    justify-content: end;
+}
+.textofinal2{
+    position: relative;
+    top:-145px;
+    left: -130px;
+  }
+  .textofinal3{
+    position: relative;
+    top:-145px;
+    left: -80px;
+  }
+  .textofinal4{
+    position: relative;
+    top:-145px;
+    left: -30px;
+  }
+  .textofinal5{
+    position: relative;
+    top:-145px;
+    left: 20px;
+  }
+.logositegrid{
+  position: absolute;
+  left: 1%;
+  top:-13%;
+  height: 300px;
+  width: 280px;
+}
